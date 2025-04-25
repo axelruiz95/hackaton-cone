@@ -52,8 +52,8 @@ La solución se divide en los siguientes componentes clave:
 
 1. Clonar el repositorio:
 
-   git clone https://github.com/tu-org/tu-proyecto.git
-   cd tu-proyecto
+   - git clone https://github.com/axelruiz95/hackaton-cone.git
+   - cd tu-proyecto
    
 2. Provisión con Terraform:
 
