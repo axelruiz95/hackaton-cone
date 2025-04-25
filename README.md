@@ -57,26 +57,23 @@ La solución se divide en los siguientes componentes clave:
    
 2. Provisión con Terraform:
 
-terraform init
-terraform apply
+- terraform init
+- terraform apply
 
 3. Accede a Jenkins en la EC2 para ejecutar pipelines y desplegar microservicios.
 
 📈 Objetivos del Proyecto
-Facilitar el acceso financiero a comunidades subatendidas.
 
-Garantizar escalabilidad con una arquitectura nativa en la nube.
-
-Implementar una solución segura y resiliente ante ataques.
-
-Integrar CI/CD para acelerar despliegues y mantener calidad de código.
-
-Optimizar la observabilidad y monitoreo proactivo.
+- Facilitar el acceso financiero a comunidades subatendidas.
+- Garantizar escalabilidad con una arquitectura nativa en la nube.
+- Implementar una solución segura y resiliente ante ataques.
+- Integrar CI/CD para acelerar despliegues y mantener calidad de código.
+- Optimizar la observabilidad y monitoreo proactivo.
 
 👥 Equipo de Desarrollo
-Nombre: Axel Ruiz
 
-Rol: Arquitecto de Soluciones Cloud
+- Nombre: Axel Ruiz
+- Rol: Arquitecto de Soluciones Cloud
 
 Tecnologías dominadas: AWS, Terraform, DevOps, Backend Java, React
 
