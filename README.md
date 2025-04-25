@@ -77,9 +77,9 @@ La solución se divide en los siguientes componentes clave:
 
 Tecnologías dominadas: AWS, Terraform, DevOps, Backend Java, React
 
-🏁 Estado del Proyecto
-✅ MVP Funcional
-🛠️ En desarrollo de nuevas features
-📦 Preparado para despliegue en entorno de producción
+   - 🏁 Estado del Proyecto
+   - ✅ MVP Funcional
+   - 🛠️ En desarrollo de nuevas features
+   - 📦 Preparado para despliegue en entorno de producción
 
 
