@@ -6,7 +6,7 @@ resource "aws_db_instance" "rds_cone" {
   instance_class = "db.t3.micro	"
   username = var.db_username
   password = var.db_password
-  db_name = "${var.project}${var.environment}"
+  db_name = "hackatondb"
   skip_final_snapshot = true
   publicly_accessible = false
   storage_encrypted = true

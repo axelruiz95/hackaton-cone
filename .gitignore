@@ -19,4 +19,4 @@ override.tf.json
 *.tfplan
 
 # Archivos de salida sensibles
-.terraform.tfvars
+*.tfvars

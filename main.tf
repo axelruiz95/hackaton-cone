@@ -57,9 +57,9 @@ module "jenkins_ec2" {
   tags               = var.tags
   owner              = var.owner
   ami_id             = "ami-0e54f1b41c24e4f5e"
-  instance_type      = "t3.medium"
+  instance_type      = "t4g.medium"
   subnet_id          = module.vpc.public_subnet_ids[0]
-  key_name           = "mi-llave-ssh"
+  key_name           = "ngo-keypair"
   vpc_id             = module.vpc.vpc_id
   security_group_id  = module.security.jenkins_sg_id
 }
