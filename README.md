@@ -81,5 +81,3 @@ Tecnologías dominadas: AWS, Terraform, DevOps, Backend Java, React
    - ✅ MVP Funcional
    - 🛠️ En desarrollo de nuevas features
    - 📦 Preparado para despliegue en entorno de producción
-
-
