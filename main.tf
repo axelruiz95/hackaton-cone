@@ -56,7 +56,7 @@ module "jenkins_ec2" {
   project            = var.project
   tags               = var.tags
   owner              = var.owner
-  ami_id             = "ami-0c55b159cbfafe1f0"
+  ami_id             = "ami-0e54f1b41c24e4f5e"
   instance_type      = "t3.medium"
   subnet_id          = module.vpc.public_subnet_ids[0]
   key_name           = "mi-llave-ssh"

@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "s3_h_cone" {
-  bucket = "${var.project}-${var.environment}-${var.name}-bucket"
+  bucket = "ffs-dev-hackatone-capitl-one-bucket"
 
   tags = merge(
     var.tags,
