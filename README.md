@@ -6,6 +6,9 @@ Este proyecto es una plataforma serverless diseñada para impulsar la inclusión
 
 ---
 
+![ha](https://github.com/user-attachments/assets/7fca2397-7d29-40f5-a12d-d5138edf3185)
+
+
 ## 🏗️ Arquitectura General
 
 La solución se divide en los siguientes componentes clave:
