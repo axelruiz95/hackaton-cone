@@ -28,6 +28,7 @@ data "aws_iam_policy_document" "eks_assume_role_policy" {
 resource "aws_eks_cluster" "eks_cluster" {
   name     = "eks-cluster-hackaton-${var.project}"
   role_arn = aws_iam_role.eks_cluster_role.arn
+  version  = "1.32"
 
   vpc_config {
     subnet_ids = var.subnet_ids
@@ -57,6 +58,10 @@ resource "aws_eks_node_group" "eks_node_g" {
   }
 
   instance_types = ["t3.medium"] 
+  ami_type = "AL2_x86_64"
+  capacity_type = "ON_DEMAND"
+
+  disk_size = 20
 
   tags = merge(
     var.tags,

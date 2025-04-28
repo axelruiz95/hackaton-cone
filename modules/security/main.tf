@@ -11,11 +11,12 @@ resource "aws_cognito_user_pool" "aws_cognito_pool" {
     }
   )
 }
-
+/*Se comenta esta linea
+Se puede descomentar al tener AWS Shield Advanced
 resource "aws_shield_protection" "this" {
-  name     = "hackaton-${var.project}-shield"
+  name     = "hackaton-ffs-shield"
   resource_arn = var.resource_arn
-}
+}*/
 
 resource "aws_iam_role" "generic_service_role" {
   name = "hackaton-${var.project}-generic-role"

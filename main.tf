@@ -33,7 +33,7 @@ module "eks" {
   environment = var.environment
   project     = var.project
   tags        = var.tags
-  subnet_ids  = module.vpc.private_subnet_ids
+  subnet_ids  = module.vpc.public_subnet_ids
   owner       = var.owner
 }
 

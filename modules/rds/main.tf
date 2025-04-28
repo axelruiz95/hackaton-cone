@@ -3,7 +3,7 @@ resource "aws_db_instance" "rds_cone" {
   allocated_storage = "20"
   engine = "mysql"
   engine_version = "8.0"
-  instance_class = "db.t3.micro	"
+  instance_class = "db.t3.micro"
   username = var.db_username
   password = var.db_password
   db_name = "hackatondb"
